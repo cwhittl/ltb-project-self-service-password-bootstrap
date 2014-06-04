@@ -1,0 +1,145 @@
+body {
+		font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 14px;
+line-height: 1.42857;
+color: #676768;
+background: url("//www.collectivebias.com/wp-content/themes/collective_bias_1.1/images/bg.png") no-repeat center 250px #fff;
+padding-top: 20px;
+}
+
+form {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+form{
+  margin-bottom: 10px;
+}
+
+form input {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+
+}
+.btn {
+	background-color: #94348c;
+}
+.btn:hover {
+	background-color: gray;
+}
+.recaptcha_widget {
+-webkit-box-sizing:border-box;
+-moz-box-sizing:border-box;
+box-sizing:border-box;
+max-width:300px;
+border:4px solid gray;
+-webkit-border-radius:4px;
+-moz-border-radius:4px;
+-ms-border-radius:4px;
+-o-border-radius:4px;
+border-radius:4px;
+background:gray;
+margin-left: auto;
+margin-right: auto;
+margin-bottom:10px;
+}
+
+#recaptcha_image {
+width:100%!important;
+height:auto!important;
+}
+
+#recaptcha_image img {
+-webkit-box-sizing:border-box;
+-moz-box-sizing:border-box;
+box-sizing:border-box;
+width:100%;
+height:auto;
+-webkit-border-radius:2px;
+-moz-border-radius:2px;
+-ms-border-radius:2px;
+-o-border-radius:2px;
+border-radius:2px;
+border:3px solid #FFF;
+}
+
+.recaptcha_is_showing_audio embed {
+height:0;
+width:0;
+overflow:hidden;
+}
+
+.recaptcha_is_showing_audio #recaptcha_image {
+-webkit-box-sizing:border-box;
+-moz-box-sizing:border-box;
+box-sizing:border-box;
+width:100%;
+height:60px;
+background:#FFF;
+-webkit-border-radius:2px;
+-moz-border-radius:2px;
+-ms-border-radius:2px;
+-o-border-radius:2px;
+border-radius:2px;
+border:3px solid #FFF;
+}
+
+.recaptcha_input {
+color:#000;
+font:13px/1.5 HelveticaNeue,"Helvetica Neue",Helvetica,Arial,"Liberation Sans",FreeSans,sans-serif;
+
+-webkit-border-radius:2px;
+-moz-border-radius:2px;
+-ms-border-radius:2px;
+-o-border-radius:2px;
+border-radius:2px;
+margin:4px 0 0;
+padding:0 4px 4px;
+}
+
+.recaptcha_input label {
+-webkit-box-sizing:border-box;
+-moz-box-sizing:border-box;
+box-sizing:border-box;
+margin:0 0 6px;
+}
+
+.recaptcha_input input {
+width:100%;
+}
+
+.recaptcha_options {
+list-style:none;
+height:18px;
+margin:4px 0 0;
+}
+
+.recaptcha_options li {
+float:left;
+margin:0 4px 0 0;
+}
+
+.recaptcha_options li a {
+text-decoration:none;
+text-shadow:0 1px 1px #000;
+font-size:16px;
+color:#FFF;
+display:block;
+width:20px;
+height:18px;
+}
+
+.recaptcha_options li a:active {
+position:relative;
+top:1px;
+text-shadow:none;
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,.recaptcha_is_showing_audio #recaptcha_image #recaptcha_audio_download {
+display:block;
+}
+
+.recaptcha_is_showing_audio #recaptcha_image br,.captcha_hide {
+display:none;
+}
