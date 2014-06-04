@@ -126,7 +126,7 @@ $token_lifetime = "3600";
 # LDAP mail attribute
 $mail_attribute = "mail";
 # Who the email should come from
-$mail_from = "support@collectivebias.com";
+$mail_from = "";
 # Notify users anytime their password is changed
 $notify_on_change = true;
 
@@ -164,7 +164,7 @@ $show_help = true;
 $lang ="en";
 
 # Logo
-$logo = "style/collective_bias_logo.svg";
+$logo = "style/ltb-project-logo.png";
 
 # Debug mode
 $debug = false;
@@ -184,7 +184,7 @@ $login_forbidden_chars = "*()&|";
 ## CAPTCHA
 # Use Google reCAPTCHA (http://www.google.com/recaptcha)
 # Go on the site to get public and private key
-$use_recaptcha = true;
+$use_recaptcha = false;
 $recaptcha_publickey = "";
 $recaptcha_privatekey = "";
 # Customize theme (see http://code.google.com/intl/de-DE/apis/recaptcha/docs/customization.html)

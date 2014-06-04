@@ -242,7 +242,7 @@ if ( $result == "smscrypttokensrequired" ) {
     <div class="row"><?php echo $messages["sms"] . ": "; ?><?php echo $sms; ?></div>
     <br/>
     <div class="row">
-    <select name="carrier_suffix">
+    <select class='form-control' name="carrier_suffix">
 <option value="">--Please Select Your Carrier--</option>
 <?php
     asort($sms_carrier_options);

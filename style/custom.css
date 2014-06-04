@@ -3,7 +3,7 @@ body {
 font-size: 14px;
 line-height: 1.42857;
 color: #676768;
-background: url("//www.collectivebias.com/wp-content/themes/collective_bias_1.1/images/bg.png") no-repeat center 250px #fff;
+background: #fff;
 padding-top: 20px;
 }
 
@@ -22,8 +22,9 @@ form input {
   border-top-right-radius: 0;
 
 }
-.btn {
+.btn-default {
 	background-color: #94348c;
+  color:#FFF;
 }
 .btn:hover {
 	background-color: gray;
